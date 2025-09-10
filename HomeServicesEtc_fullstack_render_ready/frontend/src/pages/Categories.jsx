@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-// ✅ Import 11 icons (React import से ही काम करेगा, public path से नहीं)
+// ✅ Import 11 icons (make sure files exist in src/assets/icons/ with same lowercase names)
 import plumbingIcon from "../assets/icons/plumbing.png";
 import electricalIcon from "../assets/icons/electrical.png";
 import cleaningIcon from "../assets/icons/cleaning.png";
@@ -13,7 +13,7 @@ import hvacIcon from "../assets/icons/hvac.png";
 import appliancesIcon from "../assets/icons/appliances.png";
 import othersIcon from "../assets/icons/others.png";
 
-// ✅ Map category name → icon
+// ✅ Map category names → icons
 const iconMap = {
   Plumbing: plumbingIcon,
   Electrical: electricalIcon,
@@ -35,26 +35,26 @@ export default function Categories() {
     fetch(`${import.meta.env.VITE_API_URL}/categories`)
       .then((res) => res.json())
       .then((data) => setCategories(data))
-      .catch((err) => console.error("Failed to load categories:", err));
+      .catch((err) => console.error("Error fetching categories:", err));
   }, []);
 
   return (
     <div className="p-6">
-      <h1 className="text-2xl font-bold mb-6">Service Categories</h1>
+      <h1 className="text-2xl font-bold mb-4">Service Categories</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {categories.map((cat) => (
           <div
             key={cat.name}
-            className="border p-4 rounded-xl shadow hover:shadow-lg transition bg-white"
+            className="border p-4 rounded-xl shadow hover:shadow-lg transition"
           >
             <img
-              src={iconMap[cat.name] || othersIcon} // ✅ icon assign
+              src={iconMap[cat.name] || othersIcon}
               alt={cat.name}
               className="h-12 w-12 mb-2"
             />
-            <h2 className="font-semibold text-lg">{cat.name}</h2>
-            <ul className="list-disc ml-5 text-sm mt-2 space-y-1 max-h-40 overflow-y-auto">
-              {cat.subcategories?.map((sub, i) => (
+            <h2 className="font-semibold">{cat.name}</h2>
+            <ul className="list-disc ml-4 text-sm mt-2 space-y-1">
+              {cat.subcategories.map((sub, i) => (
                 <li key={i}>{sub}</li>
               ))}
             </ul>
