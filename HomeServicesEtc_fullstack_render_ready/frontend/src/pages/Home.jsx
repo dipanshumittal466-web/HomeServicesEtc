@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Layout from "../components/Layout";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col">
+    <Layout>
       {/* Hero Section */}
       <section className="flex-1 flex flex-col items-center justify-center text-center p-10 bg-gradient-to-r from-blue-500 to-indigo-600 text-white">
         <h1 className="text-4xl md:text-6xl font-bold mb-6">
@@ -43,24 +44,17 @@ export default function Home() {
           <div className="p-6 border rounded-2xl shadow hover:shadow-lg transition">
             <h3 className="font-semibold text-xl mb-2">Wide Categories</h3>
             <p>
-              From Plumbing to Security, 11 main categories and 300+ subcategories
-              covered.
+              From Plumbing to Security, 11 main categories and 300+ subcategories covered.
             </p>
           </div>
           <div className="p-6 border rounded-2xl shadow hover:shadow-lg transition">
             <h3 className="font-semibold text-xl mb-2">Easy to Use</h3>
             <p>
-              Simple dashboard to post jobs, review providers, and manage
-              bookings.
+              Simple dashboard to post jobs, review providers, and manage bookings.
             </p>
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="bg-gray-100 py-6 text-center text-gray-600">
-        <p>© {new Date().getFullYear()} HomeServicesEtc. All rights reserved.</p>
-      </footer>
-    </div>
+    </Layout>
   );
 }
