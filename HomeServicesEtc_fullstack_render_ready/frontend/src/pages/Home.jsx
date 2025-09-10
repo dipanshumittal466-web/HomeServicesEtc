@@ -1,12 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Layout from "../components/Layout";
+import TransparentLogo from "../assets/logos/HomeServicesEtc_Logo_Transparent(1).png"; // transparent logo import
 
 export default function Home() {
   return (
     <Layout>
       {/* Hero Section */}
       <section className="flex-1 flex flex-col items-center justify-center text-center p-10 bg-gradient-to-r from-blue-500 to-indigo-600 text-white">
+        
+        {/* Transparent Logo */}
+        <img
+          src={TransparentLogo}
+          alt="HomeServicesEtc Logo"
+          className="h-20 mb-6 drop-shadow-lg"
+        />
+
         <h1 className="text-4xl md:text-6xl font-bold mb-6">
           Welcome to HomeServicesEtc
         </h1>
