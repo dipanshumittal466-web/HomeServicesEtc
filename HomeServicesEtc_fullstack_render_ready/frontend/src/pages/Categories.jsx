@@ -1,36 +1,35 @@
 import React, { useEffect, useState } from "react";
 
-// ✅ Import 11 icons (make sure files exist in src/assets/icons/ with same lowercase names)
-import plumbingIcon from "../assets/icons/plumbing.png";
-import electricalIcon from "../assets/icons/electrical.png";
-import cleaningIcon from "../assets/icons/cleaning.png";
-import gardeningIcon from "../assets/icons/gardening.png";
-import securityIcon from "../assets/icons/security.png";
-import paintingIcon from "../assets/icons/painting.png";
-import flooringIcon from "../assets/icons/flooring.png";
-import roofingIcon from "../assets/icons/roofing.png";
-import hvacIcon from "../assets/icons/hvac.png";
-import appliancesIcon from "../assets/icons/appliances.png";
-import othersIcon from "../assets/icons/others.png";
-
-
-// ✅ Map category names → icons
-const iconMap = {
-  Plumbing: plumbingIcon,
-  Electrical: electricalIcon,
-  Cleaning: cleaningIcon,
-  Gardening: gardeningIcon,
-  Security: securityIcon,
-  Painting: paintingIcon,
-  Flooring: flooringIcon,
-  Roofing: roofingIcon,
-  HVAC: hvacIcon,
-  Appliances: appliancesIcon,
-  Others: othersIcon,
-};
+// 11 main category icons
+import plumbingIcon from "../assets/icons/Plumbing.png";
+import securityIcon from "../assets/icons/security-camera.png";
+import repairIcon from "../assets/icons/repair.png";
+import paintIcon from "../assets/icons/paint-roller.png";
+import acIcon from "../assets/icons/air-conditioning.png";
+import demolitionIcon from "../assets/icons/demolition-tool-transport-with-weight-ball.png";
+import insectIcon from "../assets/icons/insecticide.png";
+import manIcon from "../assets/icons/man.png";
+import manAltIcon from "../assets/icons/man (1).png";
+import freonIcon from "../assets/icons/freon.png";
+import trimmingIcon from "../assets/icons/trimming.png";
 
 export default function Categories() {
   const [categories, setCategories] = useState([]);
+
+  // icon map
+  const iconMap = {
+    Plumbing: plumbingIcon,
+    Security: securityIcon,
+    Repair: repairIcon,
+    Painting: paintIcon,
+    HVAC: acIcon,
+    Demolition: demolitionIcon,
+    PestControl: insectIcon,
+    Manpower: manIcon,
+    Labor: manAltIcon,
+    Electrical: freonIcon,
+    Gardening: trimmingIcon,
+  };
 
   useEffect(() => {
     fetch(`${import.meta.env.VITE_API_URL}/categories`)
@@ -49,7 +48,7 @@ export default function Categories() {
             className="border p-4 rounded-xl shadow hover:shadow-lg transition"
           >
             <img
-              src={iconMap[cat.name] || othersIcon}
+              src={iconMap[cat.name] || plumbingIcon}
               alt={cat.name}
               className="h-12 w-12 mb-2"
             />
