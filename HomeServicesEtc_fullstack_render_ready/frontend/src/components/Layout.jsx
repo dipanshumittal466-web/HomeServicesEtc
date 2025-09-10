@@ -1,31 +1,33 @@
 import React from "react";
-import logo from "../assets/logos/logo.png"; // ✅ logo import
+import { Link } from "react-router-dom";
+import Logo from "../assets/logos/Homeservicesmain.png"; // main logo import
 
 export default function Layout({ children }) {
   return (
-    <div className="min-h-screen flex flex-col">
-      {/* Header */}
-      <header className="flex items-center p-4 bg-gray-100 shadow">
-        <img src={logo} alt="HomeServicesEtc Logo" className="h-12 mr-6" />
-        <nav className="flex gap-4 text-blue-600 font-medium">
-          <a href="/">Home</a>
-          <a href="/categories">Categories</a>
-          <a href="/jobs">Jobs</a>
-          <a href="/crm">CRM</a>
-          <a href="/compliance">Compliance</a>
-          <a href="/dashboard">Dashboard</a>
-          <a href="/admin">Admin</a>
-          <a href="/login">Login</a>
+    <div className="flex min-h-screen">
+      {/* Sidebar */}
+      <aside className="w-64 bg-gray-900 text-white flex flex-col p-6">
+        {/* Logo */}
+        <div className="flex items-center mb-10">
+          <img src={Logo} alt="HomeServicesEtc Logo" className="h-12 mr-3" />
+          <h1 className="text-xl font-bold">HomeServicesEtc</h1>
+        </div>
+
+        {/* Navigation Links */}
+        <nav className="flex flex-col gap-4">
+          <Link to="/" className="hover:text-blue-400">Home</Link>
+          <Link to="/categories" className="hover:text-blue-400">Categories</Link>
+          <Link to="/jobs" className="hover:text-blue-400">Jobs</Link>
+          <Link to="/crm" className="hover:text-blue-400">CRM</Link>
+          <Link to="/compliance" className="hover:text-blue-400">Compliance</Link>
+          <Link to="/dashboard" className="hover:text-blue-400">Dashboard</Link>
+          <Link to="/admin" className="hover:text-blue-400">Admin</Link>
+          <Link to="/login" className="hover:text-blue-400">Login</Link>
         </nav>
-      </header>
+      </aside>
 
       {/* Main Content */}
-      <main className="flex-1 p-6 bg-white">{children}</main>
-
-      {/* Footer */}
-      <footer className="p-4 text-center bg-gray-100 text-sm text-gray-600">
-        © {new Date().getFullYear()} HomeServicesEtc. All rights reserved.
-      </footer>
+      <main className="flex-1 bg-gray-50 p-6">{children}</main>
     </div>
   );
 }
