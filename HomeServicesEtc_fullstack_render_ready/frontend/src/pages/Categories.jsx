@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 // 11 main category icons
-import plumbingIcon from "../assets/icons/Plumbing.png";
+import plumbingIcon from "../assets/icons/plumbing.png";
 import securityIcon from "../assets/icons/security-camera.png";
 import repairIcon from "../assets/icons/repair.png";
 import paintIcon from "../assets/icons/paint-roller.png";
