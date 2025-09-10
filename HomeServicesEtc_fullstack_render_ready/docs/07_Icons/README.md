@@ -1,0 +1,1 @@
+Icons are included in frontend/src/assets/icons
