@@ -12,5 +12,6 @@ export default defineConfig({
     outDir: 'dist',
     sourcemap: false,
     target: 'esnext'
-  }
+  },
+  base: './',   // 👈 Important: relative paths so assets (logo/icons) load correctly
 })
