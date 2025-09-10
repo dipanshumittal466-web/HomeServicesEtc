@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from "react";
 
 // ✅ Import 11 icons (make sure files exist in src/assets/icons/ with same lowercase names)
-import plumbingIcon from "./assets/icons/plumbing.png";
-import electricalIcon from "./assets/icons/electrical.png";
-import cleaningIcon from "./assets/icons/cleaning.png";
-import gardeningIcon from "./assets/icons/gardening.png";
-import securityIcon from "./assets/icons/security.png";
-import paintingIcon from "./assets/icons/painting.png";
-import flooringIcon from "./assets/icons/flooring.png";
-import roofingIcon from "./assets/icons/roofing.png";
-import hvacIcon from "./assets/icons/hvac.png";
-import appliancesIcon from "./assets/icons/appliances.png";
-import othersIcon from "./assets/icons/others.png";
+import plumbingIcon from "..../assets/icons/plumbing.png";
+import electricalIcon from "..../assets/icons/electrical.png";
+import cleaningIcon from "..../assets/icons/cleaning.png";
+import gardeningIcon from "..../assets/icons/gardening.png";
+import securityIcon from "..../assets/icons/security.png";
+import paintingIcon from "..../assets/icons/painting.png";
+import flooringIcon from "..../assets/icons/flooring.png";
+import roofingIcon from "..../assets/icons/roofing.png";
+import hvacIcon from "..../assets/icons/hvac.png";
+import appliancesIcon from "..../assets/icons/appliances.png";
+import othersIcon from "..../assets/icons/others.png";
 
 // ✅ Map category names → icons
 const iconMap = {
