@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js"
+    "start": "node src/server.js",
+    "migrate": "psql $DATABASE_URL -f backend/migrations/20250910_create_provider_documents.sql",
+    "postinstall": "npm run migrate"
   },
   "dependencies": {
     "express": "^4.18.2",
