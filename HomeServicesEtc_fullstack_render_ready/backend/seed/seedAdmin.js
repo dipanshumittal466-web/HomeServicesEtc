@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const bcrypt = require('bcryptjs')
 
 // ✅ absolute safe path
-const User = require(path.join(__dirname, '.', 'src', 'models', 'User'))
+const User = require(path.join(__dirname, '..', 'src', 'models', 'User'))
 
 const MONGO = process.env.MONGO_URI || 'mongodb://localhost:27017/homeservicesetc'
 
