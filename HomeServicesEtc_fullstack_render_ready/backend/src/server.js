@@ -4,8 +4,13 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 const { attachUser } = require('./middleware/auth');
 
+// ✅ CORS config (Render ke liye important)
+app.use(cors({
+  origin: process.env.CORS_ORIGIN || "*",  // Render frontend URL yaha set hoga
+  credentials: true,
+}));
+
 // Middleware
-app.use(cors());
 app.use(express.json());
 app.use(attachUser);
 
@@ -32,4 +37,4 @@ if (mongoUri) {
 
 // Start Server
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, ()=> console.log('Server running on', PORT));
+app.listen(PORT, ()=> console.log('🚀 Server running on', PORT));
