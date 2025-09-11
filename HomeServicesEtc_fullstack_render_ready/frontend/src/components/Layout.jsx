@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import Logo from "../assets/logo-transparent.png"; // logo import किया assets से
 
 export default function Layout({ children }) {
   return (
@@ -9,7 +9,11 @@ export default function Layout({ children }) {
       <aside className="w-64 bg-gray-900 text-white flex flex-col p-6">
         {/* Logo */}
         <div className="flex items-center mb-10">
-          <img src={Logo} alt="HomeServicesEtc Logo" className="h-12 mr-3" />
+          <img
+            src={Logo}
+            alt="HomeServicesEtc Logo"
+            className="h-12 mr-3"
+          />
           <h1 className="text-xl font-bold">HomeServicesEtc</h1>
         </div>
 
