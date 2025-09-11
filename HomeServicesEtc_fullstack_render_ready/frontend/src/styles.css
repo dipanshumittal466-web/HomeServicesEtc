@@ -1,0 +1,6 @@
+body{font-family:Arial,Helvetica,sans-serif;background:#f5f7fb;color:#0b1724}button{cursor:pointer}
+/* Added layout styles */
+.nav-link{color:#0b1724;text-decoration:none;padding:8px 10px;border-radius:6px;}
+.nav-link:hover{background:#f1f5f9;color:#0b1724;text-decoration:none;}
+.login-btn{background:#0b5fff;color:#fff;padding:8px 12px;border-radius:8px;text-decoration:none;}
+.login-btn:hover{opacity:0.95;}
