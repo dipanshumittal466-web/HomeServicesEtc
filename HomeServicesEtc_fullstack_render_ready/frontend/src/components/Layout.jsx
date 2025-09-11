@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../assets/logo-transparent.png"; // logo import किया assets से
 
 export default function Layout({ children }) {
   return (
@@ -10,7 +9,7 @@ export default function Layout({ children }) {
         {/* Logo */}
         <div className="flex items-center mb-10">
           <img
-            src={Logo}
+            src="/logo-transparent.png"   // ✅ public folder से direct load होगा
             alt="HomeServicesEtc Logo"
             className="h-12 mr-3"
           />
