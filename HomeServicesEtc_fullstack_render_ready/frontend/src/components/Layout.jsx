@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../assets/logos/Homeservicesmain.png"; // main logo import
+
 
 export default function Layout({ children }) {
   return (
