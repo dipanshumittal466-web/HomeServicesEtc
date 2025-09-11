@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Layout from "../components/Layout";
-import categories from "../data/categories.json";
-
 
 export default function Home() {
   return (
@@ -10,7 +8,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="flex-1 flex flex-col items-center justify-center text-center p-10 bg-gradient-to-r from-blue-500 to-indigo-600 text-white">
         
-        {/* Transparent Logo */}
+        {/* Transparent Logo from public folder */}
         <img
           src="/logo-transparent.png"
           alt="HomeServicesEtc Logo"
