@@ -4,7 +4,7 @@
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
-    "migrate": "psql $DATABASE_URL -f backend/migrations/20250910_create_provider_documents.sql",
+    "migrate": "psql $DATABASE_URL -f migrations/20250910_create_provider_documents.sql",
     "postinstall": "npm run migrate"
   },
   "dependencies": {
