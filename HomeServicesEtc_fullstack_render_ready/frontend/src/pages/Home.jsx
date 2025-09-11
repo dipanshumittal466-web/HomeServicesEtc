@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Layout from "../components/Layout";
-import TransparentLogo from "../assets/logos/Transparent.png"; // transparent logo import
+
 
 export default function Home() {
   return (
