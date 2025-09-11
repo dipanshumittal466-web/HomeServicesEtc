@@ -1,0 +1,1243 @@
+{
+  "count_main": 308,
+  "mains": [
+    {
+      "main": "HomeServicesEtc.com Service Taxonomy (Full Version)",
+      "subs": []
+    },
+    {
+      "main": "Handyman & General Repairs",
+      "subs": []
+    },
+    {
+      "main": "General handyman / odd jobs",
+      "subs": []
+    },
+    {
+      "main": "Furniture assembly / flat-packs",
+      "subs": []
+    },
+    {
+      "main": "Picture/mirror hanging, TV mounting",
+      "subs": []
+    },
+    {
+      "main": "Door repairs: handles, locks, hinges",
+      "subs": []
+    },
+    {
+      "main": "Flyscreens & mesh, window latches",
+      "subs": []
+    },
+    {
+      "main": "Caulking & sealing (bath, kitchen, windows)",
+      "subs": []
+    },
+    {
+      "main": "Basic carpentry (shelves, trims, skirting)",
+      "subs": []
+    },
+    {
+      "main": "Small patch & paint",
+      "subs": []
+    },
+    {
+      "main": "Weatherproofing & draught sealing",
+      "subs": []
+    },
+    {
+      "main": "Carpentry & Joinery",
+      "subs": []
+    },
+    {
+      "main": "Framing & extensions",
+      "subs": []
+    },
+    {
+      "main": "Decks, pergolas, verandahs",
+      "subs": []
+    },
+    {
+      "main": "Stairs & balustrades",
+      "subs": []
+    },
+    {
+      "main": "Custom cabinetry & built-ins",
+      "subs": []
+    },
+    {
+      "main": "Doors & architraves",
+      "subs": []
+    },
+    {
+      "main": "Skirting & mouldings",
+      "subs": []
+    },
+    {
+      "main": "Timber repairs & rot replacement",
+      "subs": []
+    },
+    {
+      "main": "Plumbing, Gas & Drainage",
+      "subs": []
+    },
+    {
+      "main": "Emergency plumbing (24/7)",
+      "subs": []
+    },
+    {
+      "main": "Blocked drains / CCTV drain inspection",
+      "subs": []
+    },
+    {
+      "main": "Leaks: taps, toilets, showers",
+      "subs": [
+        "Hot water systems (gas, electric, solar, heat-pump)"
+      ]
+    },
+    {
+      "main": "Gasfitting: cooktops, heaters, bayonets",
+      "subs": []
+    },
+    {
+      "main": "Roof plumbing, gutters & downpipes",
+      "subs": []
+    },
+    {
+      "main": "Rainwater tanks & pump installations",
+      "subs": []
+    },
+    {
+      "main": "Backflow prevention & TMV servicing",
+      "subs": []
+    },
+    {
+      "main": "Electrical & Data",
+      "subs": []
+    },
+    {
+      "main": "Emergency electrical (24/7)",
+      "subs": []
+    },
+    {
+      "main": "Power points, switches, lighting upgrades",
+      "subs": []
+    },
+    {
+      "main": "Switchboard upgrades & safety switches (RCDs)",
+      "subs": []
+    },
+    {
+      "main": "Smoke alarms (install/test/compliance)",
+      "subs": []
+    },
+    {
+      "main": "EV chargers (home & commercial)",
+      "subs": []
+    },
+    {
+      "main": "Data/phone cabling, NBN pre-wire",
+      "subs": []
+    },
+    {
+      "main": "Home theatre & audio visual",
+      "subs": []
+    },
+    {
+      "main": "Test & tag (workplace/commercial)",
+      "subs": []
+    },
+    {
+      "main": "Heating, Cooling & Ventilation (HVAC)",
+      "subs": []
+    },
+    {
+      "main": "Split-system AC install & service",
+      "subs": []
+    },
+    {
+      "main": "Ducted air-con & zoning",
+      "subs": []
+    },
+    {
+      "main": "Evaporative cooling",
+      "subs": []
+    },
+    {
+      "main": "Gas heaters: service & carbon-monoxide test",
+      "subs": []
+    },
+    {
+      "main": "Ventilation, exhaust fans & subfloor fans",
+      "subs": []
+    },
+    {
+      "main": "Thermostat controls & smart zoning",
+      "subs": []
+    },
+    {
+      "main": "Roofing & Guttering",
+      "subs": []
+    },
+    {
+      "main": "Roof repairs (tile, metal, Colorbond)",
+      "subs": []
+    },
+    {
+      "main": "Re-roofing & restorations",
+      "subs": []
+    },
+    {
+      "main": "Flashings, valleys & ridge capping",
+      "subs": []
+    },
+    {
+      "main": "Gutter install/guard & downpipes",
+      "subs": []
+    },
+    {
+      "main": "Skylights & roof windows",
+      "subs": [
+        "Leak detection & storm damage Make Safe"
+      ]
+    },
+    {
+      "main": "Painting & Decorating",
+      "subs": []
+    },
+    {
+      "main": "Interior/exterior painting",
+      "subs": []
+    },
+    {
+      "main": "Feature walls & wallpaper",
+      "subs": []
+    },
+    {
+      "main": "Timber staining & oiling (decks, doors)",
+      "subs": []
+    },
+    {
+      "main": "Roof painting & sealing",
+      "subs": []
+    },
+    {
+      "main": "Lead-paint management (licensed)",
+      "subs": []
+    },
+    {
+      "main": "Plaster & surface prep",
+      "subs": []
+    },
+    {
+      "main": "Plastering & Drywall",
+      "subs": []
+    },
+    {
+      "main": "Hole patching & cornices",
+      "subs": []
+    },
+    {
+      "main": "New walls & ceilings",
+      "subs": []
+    },
+    {
+      "main": "Soundproofing & acoustic panels",
+      "subs": []
+    },
+    {
+      "main": "Water damage repairs",
+      "subs": []
+    },
+    {
+      "main": "Tiling, Stone & Masonry",
+      "subs": []
+    },
+    {
+      "main": "Floor/wall tiling (bath/kitchen)",
+      "subs": []
+    },
+    {
+      "main": "Waterproofing (licensed where required)",
+      "subs": []
+    },
+    {
+      "main": "Regrouting & silicone renewal",
+      "subs": []
+    },
+    {
+      "main": "Natural stone & pavers",
+      "subs": []
+    },
+    {
+      "main": "Bricklaying, retaining walls, blockwork",
+      "subs": []
+    },
+    {
+      "main": "Concrete slabs, paths & driveways",
+      "subs": []
+    },
+    {
+      "main": "Polished concrete & epoxy floors",
+      "subs": []
+    },
+    {
+      "main": "Flooring",
+      "subs": []
+    },
+    {
+      "main": "Timber/engineered/laminate install",
+      "subs": []
+    },
+    {
+      "main": "Sanding & polishing",
+      "subs": []
+    },
+    {
+      "main": "Hybrid & vinyl plank",
+      "subs": []
+    },
+    {
+      "main": "Carpet install & stretching",
+      "subs": []
+    },
+    {
+      "main": "Tile removal & prep",
+      "subs": []
+    },
+    {
+      "main": "Underlay, trims & transitions",
+      "subs": []
+    },
+    {
+      "main": "Windows, Doors & Glazing",
+      "subs": []
+    },
+    {
+      "main": "Window replacement & repairs",
+      "subs": []
+    },
+    {
+      "main": "Double glazing/retrofit",
+      "subs": []
+    },
+    {
+      "main": "Flyscreens & security screens",
+      "subs": []
+    },
+    {
+      "main": "Sliding door tracks & rollers",
+      "subs": []
+    },
+    {
+      "main": "Garage doors (install/service)",
+      "subs": []
+    },
+    {
+      "main": "Shower screens & mirrors",
+      "subs": []
+    },
+    {
+      "main": "Bi-folds, French & stacker doors",
+      "subs": []
+    },
+    {
+      "main": "Fencing & Gates",
+      "subs": []
+    },
+    {
+      "main": "Timber, Colorbond, aluminium",
+      "subs": []
+    },
+    {
+      "main": "Pool fencing & compliance",
+      "subs": []
+    },
+    {
+      "main": "Slat screens & privacy",
+      "subs": []
+    },
+    {
+      "main": "Gates (manual/automatic)",
+      "subs": []
+    },
+    {
+      "main": "Rural fencing & stock fencing",
+      "subs": []
+    },
+    {
+      "main": "Repairs & storm damage",
+      "subs": []
+    },
+    {
+      "main": "Outdoor, Landscaping & Garden",
+      "subs": []
+    },
+    {
+      "main": "Lawn care & mowing",
+      "subs": []
+    },
+    {
+      "main": "Hedging, pruning & tree lopping (arborist)",
+      "subs": []
+    },
+    {
+      "main": "Garden makeovers & softscaping",
+      "subs": []
+    },
+    {
+      "main": "Reticulation/irrigation & water tanks",
+      "subs": []
+    },
+    {
+      "main": "Turf (natural & synthetic)",
+      "subs": []
+    },
+    {
+      "main": "Decks, pergolas, gazebos",
+      "subs": []
+    },
+    {
+      "main": "Paving & edging",
+      "subs": []
+    },
+    {
+      "main": "Garden lighting & outdoor power",
+      "subs": []
+    },
+    {
+      "main": "Green waste removal",
+      "subs": []
+    },
+    {
+      "main": "Pools, Spas & Saunas",
+      "subs": []
+    },
+    {
+      "main": "Pool cleaning & regular servicing",
+      "subs": []
+    },
+    {
+      "main": "Pumps, filters & chlorinators",
+      "subs": []
+    },
+    {
+      "main": "Leak detection",
+      "subs": []
+    },
+    {
+      "main": "Heating (solar, gas, electric)",
+      "subs": []
+    },
+    {
+      "main": "Pool fencing & compliance certificates",
+      "subs": []
+    },
+    {
+      "main": "Spa install & maintenance",
+      "subs": []
+    },
+    {
+      "main": "Saunas & steam rooms",
+      "subs": []
+    },
+    {
+      "main": "Cleaning & Housekeeping",
+      "subs": []
+    },
+    {
+      "main": "Regular house cleaning",
+      "subs": []
+    },
+    {
+      "main": "End-of-lease/vacate cleaning",
+      "subs": []
+    },
+    {
+      "main": "Deep cleans (kitchens, bathrooms)",
+      "subs": []
+    },
+    {
+      "main": "Window & flyscreen cleaning",
+      "subs": []
+    },
+    {
+      "main": "Carpet, rug & upholstery steam clean",
+      "subs": []
+    },
+    {
+      "main": "Pressure washing (paths, walls, roofs)",
+      "subs": []
+    },
+    {
+      "main": "Solar panel cleaning",
+      "subs": []
+    },
+    {
+      "main": "Oven & rangehood detailing",
+      "subs": []
+    },
+    {
+      "main": "Post-reno & builder’s cleans",
+      "subs": []
+    },
+    {
+      "main": "Rubbish, Recycling & Skip Hire",
+      "subs": []
+    },
+    {
+      "main": "Household junk removal",
+      "subs": []
+    },
+    {
+      "main": "Green waste & storm debris",
+      "subs": []
+    },
+    {
+      "main": "Construction & renovation waste",
+      "subs": []
+    },
+    {
+      "main": "Whitegoods & e-waste",
+      "subs": []
+    },
+    {
+      "main": "Mattress & bulky items",
+      "subs": []
+    },
+    {
+      "main": "Skip bin delivery & pickup",
+      "subs": []
+    },
+    {
+      "main": "Pest & Wildlife",
+      "subs": []
+    },
+    {
+      "main": "Termite inspections & barriers",
+      "subs": []
+    },
+    {
+      "main": "General pest control (ants, cockroaches, spiders)",
+      "subs": []
+    },
+    {
+      "main": "Rodent proofing",
+      "subs": []
+    },
+    {
+      "main": "Possum removal (licensed)",
+      "subs": []
+    },
+    {
+      "main": "Bird control & netting",
+      "subs": []
+    },
+    {
+      "main": "End-of-lease pest treatment",
+      "subs": []
+    },
+    {
+      "main": "Security, Alarms & CCTV",
+      "subs": []
+    },
+    {
+      "main": "Alarm systems & monitoring setup",
+      "subs": []
+    },
+    {
+      "main": "CCTV cameras & NVRs",
+      "subs": []
+    },
+    {
+      "main": "Intercoms & access control",
+      "subs": []
+    },
+    {
+      "main": "Security doors, screens & bars",
+      "subs": []
+    },
+    {
+      "main": "Safes (install/bolt down)",
+      "subs": []
+    },
+    {
+      "main": "Temporary site security",
+      "subs": []
+    },
+    {
+      "main": "Smart Home & IT",
+      "subs": []
+    },
+    {
+      "main": "Smart lighting, sensors & automations",
+      "subs": []
+    },
+    {
+      "main": "Voice assistants & hubs",
+      "subs": []
+    },
+    {
+      "main": "Wi-Fi optimisation & mesh systems",
+      "subs": []
+    },
+    {
+      "main": "Home networking & NAS",
+      "subs": []
+    },
+    {
+      "main": "Device setup (TVs, soundbars, printers)",
+      "subs": []
+    },
+    {
+      "main": "Cybersecurity checkup (home office)",
+      "subs": []
+    },
+    {
+      "main": "Solar, Batteries & Energy",
+      "subs": []
+    },
+    {
+      "main": "Solar PV installs & upgrades",
+      "subs": []
+    },
+    {
+      "main": "Inverter replacement & diagnostics",
+      "subs": []
+    },
+    {
+      "main": "Battery storage (home/commercial)",
+      "subs": []
+    },
+    {
+      "main": "Solar hot water & heat-pump systems",
+      "subs": []
+    },
+    {
+      "main": "Energy audits & bill optimisation",
+      "subs": []
+    },
+    {
+      "main": "Appliances",
+      "subs": []
+    },
+    {
+      "main": "Install: dishwashers, ovens, cooktops, rangehoods",
+      "subs": []
+    },
+    {
+      "main": "Repairs (authorised/independent)",
+      "subs": []
+    },
+    {
+      "main": "Air-con cleaning services",
+      "subs": []
+    },
+    {
+      "main": "Commercial kitchen equipment (cafés & restaurants)",
+      "subs": []
+    },
+    {
+      "main": "Building & Renovation",
+      "subs": []
+    },
+    {
+      "main": "Bathrooms, laundries & kitchens",
+      "subs": []
+    },
+    {
+      "main": "Extensions & additions",
+      "subs": []
+    },
+    {
+      "main": "Granny flats & studios",
+      "subs": []
+    },
+    {
+      "main": "Garage conversions",
+      "subs": []
+    },
+    {
+      "main": "Design & drafting (BASIX/NATHERS where relevant)",
+      "subs": []
+    },
+    {
+      "main": "Owner-builder support & project management",
+      "subs": []
+    },
+    {
+      "main": "Quantity surveying & take-offs",
+      "subs": []
+    },
+    {
+      "main": "Compliance, Inspection & Reports",
+      "subs": []
+    },
+    {
+      "main": "Pre-purchase building & pest",
+      "subs": []
+    },
+    {
+      "main": "Pool safety inspections/certificates",
+      "subs": []
+    },
+    {
+      "main": "Smoke alarm compliance (NSW/QLD regs)",
+      "subs": []
+    },
+    {
+      "main": "Electrical certificates of compliance",
+      "subs": []
+    },
+    {
+      "main": "Gas compliance certificates",
+      "subs": []
+    },
+    {
+      "main": "Asbestos testing & removal (licensed)",
+      "subs": []
+    },
+    {
+      "main": "Mould assessment & remediation",
+      "subs": []
+    },
+    {
+      "main": "BAL (bushfire attack level) assessment",
+      "subs": []
+    },
+    {
+      "main": "Dilapidation reports",
+      "subs": []
+    },
+    {
+      "main": "Strata/common property reports",
+      "subs": []
+    },
+    {
+      "main": "Emergency & Disaster Recovery",
+      "subs": [
+        "24/7 Make Safe (roof, glazing, board-ups)"
+      ]
+    },
+    {
+      "main": "Storm/flood/water extraction & drying",
+      "subs": []
+    },
+    {
+      "main": "Fire damage cleanup & deodorising",
+      "subs": []
+    },
+    {
+      "main": "Insurance repair & quote management",
+      "subs": []
+    },
+    {
+      "main": "Temporary fencing & site safety",
+      "subs": []
+    },
+    {
+      "main": "Strata & Property Management Services",
+      "subs": []
+    },
+    {
+      "main": "Common-area cleaning & bins",
+      "subs": []
+    },
+    {
+      "main": "Grounds & garden care",
+      "subs": []
+    },
+    {
+      "main": "Lift lobby/foyer maintenance",
+      "subs": []
+    },
+    {
+      "main": "Carpark line-marking & bollards",
+      "subs": []
+    },
+    {
+      "main": "Lighting & sensor maintenance",
+      "subs": []
+    },
+    {
+      "main": "Compliance logs & contractor coordination",
+      "subs": []
+    },
+    {
+      "main": "Moving, Storage & Relocations",
+      "subs": []
+    },
+    {
+      "main": "Local moves & interstate removals",
+      "subs": []
+    },
+    {
+      "main": "Packing/unpacking & materials",
+      "subs": []
+    },
+    {
+      "main": "Piano & specialty item moves",
+      "subs": []
+    },
+    {
+      "main": "Office relocations",
+      "subs": []
+    },
+    {
+      "main": "Storage (short/long term)",
+      "subs": []
+    },
+    {
+      "main": "Move-out cleans & end-of-lease tasks",
+      "subs": []
+    },
+    {
+      "main": "Transport, Delivery & Courier",
+      "subs": []
+    },
+    {
+      "main": "Same-day courier & parcels",
+      "subs": []
+    },
+    {
+      "main": "Bulky item pickup",
+      "subs": []
+    },
+    {
+      "main": "Furniture delivery & assembly",
+      "subs": []
+    },
+    {
+      "main": "Click-and-collect runs",
+      "subs": []
+    },
+    {
+      "main": "Trailer/ute hire & driver help",
+      "subs": []
+    },
+    {
+      "main": "Automotive & Mobile Services",
+      "subs": []
+    },
+    {
+      "main": "Mobile mechanics & servicing",
+      "subs": []
+    },
+    {
+      "main": "Auto electrics & batteries",
+      "subs": []
+    },
+    {
+      "main": "Windscreen repair/replacement",
+      "subs": []
+    },
+    {
+      "main": "Detailing & paint correction",
+      "subs": []
+    },
+    {
+      "main": "Tyres & puncture repair (mobile)",
+      "subs": []
+    },
+    {
+      "main": "Boat, caravan & trailer servicing",
+      "subs": []
+    },
+    {
+      "main": "Metalwork & Fabrication",
+      "subs": []
+    },
+    {
+      "main": "Welding (onsite/mobile)",
+      "subs": []
+    },
+    {
+      "main": "Custom gates, rails & handrails",
+      "subs": []
+    },
+    {
+      "main": "Sheet metal & flashing",
+      "subs": []
+    },
+    {
+      "main": "Structural steel install",
+      "subs": []
+    },
+    {
+      "main": "Glass, Glazing & Screens",
+      "subs": []
+    },
+    {
+      "main": "Emergency glass replacement",
+      "subs": []
+    },
+    {
+      "main": "Double glazing retrofits",
+      "subs": []
+    },
+    {
+      "main": "Security & flyscreens",
+      "subs": []
+    },
+    {
+      "main": "Shower screens & splashbacks",
+      "subs": []
+    },
+    {
+      "main": "Signage & Printing",
+      "subs": []
+    },
+    {
+      "main": "Real estate boards & corflutes",
+      "subs": []
+    },
+    {
+      "main": "Vehicle wraps & magnets",
+      "subs": []
+    },
+    {
+      "main": "Safety signage & site boards",
+      "subs": []
+    },
+    {
+      "main": "Business cards, flyers & brochures",
+      "subs": []
+    },
+    {
+      "main": "Garden Structures & Exteriors",
+      "subs": []
+    },
+    {
+      "main": "Sheds & workshops",
+      "subs": []
+    },
+    {
+      "main": "Carports & shade sails",
+      "subs": []
+    },
+    {
+      "main": "Water features & ponds",
+      "subs": []
+    },
+    {
+      "main": "Letterboxes & house numbers",
+      "subs": []
+    },
+    {
+      "main": "Wastewater, Septic & Rural",
+      "subs": []
+    },
+    {
+      "main": "Septic systems & ATUs",
+      "subs": []
+    },
+    {
+      "main": "Greywater systems",
+      "subs": []
+    },
+    {
+      "main": "Bore pumps & irrigation",
+      "subs": []
+    },
+    {
+      "main": "Rural fencing & gates",
+      "subs": []
+    },
+    {
+      "main": "Dam & tank maintenance",
+      "subs": []
+    },
+    {
+      "main": "Marine & Jetty",
+      "subs": []
+    },
+    {
+      "main": "Pontoon & jetty repairs",
+      "subs": []
+    },
+    {
+      "main": "Antifoul & detailing",
+      "subs": []
+    },
+    {
+      "main": "Mooring checks",
+      "subs": []
+    },
+    {
+      "main": "Accessibility, NDIS & Aged Care",
+      "subs": []
+    },
+    {
+      "main": "Home modifications (ramps, rails, widening)",
+      "subs": []
+    },
+    {
+      "main": "Bathroom accessibility upgrades",
+      "subs": []
+    },
+    {
+      "main": "Falls prevention & flooring",
+      "subs": []
+    },
+    {
+      "main": "Assistive tech & smart alerts",
+      "subs": []
+    },
+    {
+      "main": "In-home care, respite & domestic assistance",
+      "subs": []
+    },
+    {
+      "main": "NDIS plan-managed provider services",
+      "subs": []
+    },
+    {
+      "main": "Health, Wellness & Personal Care",
+      "subs": []
+    },
+    {
+      "main": "Personal training & fitness setup",
+      "subs": []
+    },
+    {
+      "main": "Massage & remedial (mobile)",
+      "subs": []
+    },
+    {
+      "main": "At-home beauty & grooming",
+      "subs": []
+    },
+    {
+      "main": "Haircuts (mobile), makeup for events",
+      "subs": []
+    },
+    {
+      "main": "Childcare, Family & Education",
+      "subs": []
+    },
+    {
+      "main": "Babysitting & nanny services",
+      "subs": []
+    },
+    {
+      "main": "School pickup/drop-off",
+      "subs": []
+    },
+    {
+      "main": "Tutoring (primary/secondary)",
+      "subs": []
+    },
+    {
+      "main": "Music lessons (home)",
+      "subs": []
+    },
+    {
+      "main": "Party entertainment for kids",
+      "subs": []
+    },
+    {
+      "main": "Pets & Animals",
+      "subs": []
+    },
+    {
+      "main": "Dog walking & pet sitting",
+      "subs": []
+    },
+    {
+      "main": "Pet transport",
+      "subs": []
+    },
+    {
+      "main": "Mobile grooming",
+      "subs": []
+    },
+    {
+      "main": "Vet nurse home visits",
+      "subs": []
+    },
+    {
+      "main": "Pet waste removal & yard freshen",
+      "subs": []
+    },
+    {
+      "main": "Events & Hospitality",
+      "subs": []
+    },
+    {
+      "main": "Party setup & pack-down",
+      "subs": []
+    },
+    {
+      "main": "Catering & grazing tables",
+      "subs": []
+    },
+    {
+      "main": "Bar staff & RSA servers",
+      "subs": []
+    },
+    {
+      "main": "Equipment hire (marquees, chairs, AV)",
+      "subs": []
+    },
+    {
+      "main": "Event photography & videography",
+      "subs": []
+    },
+    {
+      "main": "DJs, musicians & MCs",
+      "subs": []
+    },
+    {
+      "main": "Photography, Video & Creative",
+      "subs": []
+    },
+    {
+      "main": "Real estate photography & floorplans",
+      "subs": []
+    },
+    {
+      "main": "Virtual tours & Matterport",
+      "subs": []
+    },
+    {
+      "main": "Drone photo/video",
+      "subs": []
+    },
+    {
+      "main": "Family/portrait sessions",
+      "subs": []
+    },
+    {
+      "main": "Photo editing & retouching",
+      "subs": []
+    },
+    {
+      "main": "Graphic design & branding",
+      "subs": []
+    },
+    {
+      "main": "Business, Admin & Virtual Support",
+      "subs": []
+    },
+    {
+      "main": "Virtual assistants & data entry",
+      "subs": []
+    },
+    {
+      "main": "Bookkeeping & BAS support",
+      "subs": []
+    },
+    {
+      "main": "Document formatting & tenders",
+      "subs": []
+    },
+    {
+      "main": "Transcription & minute-taking",
+      "subs": []
+    },
+    {
+      "main": "CRM setup & automation",
+      "subs": []
+    },
+    {
+      "main": "Legal, Finance & Property Services",
+      "subs": []
+    },
+    {
+      "main": "Conveyancing support",
+      "subs": []
+    },
+    {
+      "main": "Mortgage broker introductions",
+      "subs": []
+    },
+    {
+      "main": "Quantity surveyor (tax depreciation)",
+      "subs": []
+    },
+    {
+      "main": "Land surveying & set-out",
+      "subs": []
+    },
+    {
+      "main": "Town planning & DA support",
+      "subs": []
+    },
+    {
+      "main": "IT, Web & Cyber",
+      "subs": []
+    },
+    {
+      "main": "Home office setup & ergonomics",
+      "subs": []
+    },
+    {
+      "main": "PC/Mac tune-ups & virus removal",
+      "subs": []
+    },
+    {
+      "main": "Backups & data recovery",
+      "subs": []
+    },
+    {
+      "main": "Website updates (WordPress, Shopify)",
+      "subs": []
+    },
+    {
+      "main": "Email/domain setup & troubleshooting",
+      "subs": []
+    },
+    {
+      "main": "Sustainability & Environment",
+      "subs": []
+    },
+    {
+      "main": "Rainwater & greywater reuse",
+      "subs": []
+    },
+    {
+      "main": "Native garden conversions",
+      "subs": []
+    },
+    {
+      "main": "Composting & worm farms",
+      "subs": []
+    },
+    {
+      "main": "Energy-efficiency upgrades",
+      "subs": []
+    },
+    {
+      "main": "E-waste recycling pickups",
+      "subs": []
+    },
+    {
+      "main": "Specialty Trades & Niche Services",
+      "subs": []
+    },
+    {
+      "main": "Asbestos removal (Class A/B licensed)",
+      "subs": []
+    },
+    {
+      "main": "Lead & mould remediation",
+      "subs": []
+    },
+    {
+      "main": "Heritage restoration trades",
+      "subs": []
+    },
+    {
+      "main": "Stone masonry & tuck-pointing",
+      "subs": []
+    },
+    {
+      "main": "Acoustic treatment & sound studios",
+      "subs": []
+    },
+    {
+      "main": "Safe room / panic hardware",
+      "subs": []
+    }
+  ]
+}
