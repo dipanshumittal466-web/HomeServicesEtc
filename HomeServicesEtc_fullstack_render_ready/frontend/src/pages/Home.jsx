@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Layout from "../components/Layout";
 
-
 export default function Home() {
   return (
     <Layout>
@@ -11,7 +10,7 @@ export default function Home() {
         
         {/* Transparent Logo */}
         <img
-          src={TransparentLogo}
+          src="/logo-transparent.png"
           alt="HomeServicesEtc Logo"
           className="h-20 mb-6 drop-shadow-lg"
         />
