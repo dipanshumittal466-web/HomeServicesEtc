@@ -1,0 +1,3 @@
+import React,{useEffect,useState} from 'react'; import axios from 'axios';
+export default function Jobs(){ const [jobs,setJobs]=useState([]); useEffect(()=>{axios.get(import.meta.env.VITE_API_URL + '/api/jobs').then(r=>setJobs(r.data)).catch(()=>{})},[])
+return (<div><h2>Jobs</h2>{jobs.map(j=>(<div key={j._id} className="p-2 border mb-2"><strong>{j.title}</strong><p>{j.description}</p></div>))}</div>)}
