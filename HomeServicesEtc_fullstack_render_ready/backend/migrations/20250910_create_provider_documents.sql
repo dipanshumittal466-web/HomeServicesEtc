@@ -1,4 +1,5 @@
-CREATE TABLE provider_documents (
+-- Create provider_documents table only if it does not exist
+CREATE TABLE IF NOT EXISTS provider_documents (
   id BIGSERIAL PRIMARY KEY,
   provider_id BIGINT NOT NULL,
   doc_type TEXT NOT NULL,
@@ -13,6 +14,8 @@ CREATE TABLE provider_documents (
   expiry_date DATE,
   notes TEXT
 );
+
+-- Alter providers table safely (only if it exists)
 ALTER TABLE IF EXISTS providers
   ADD COLUMN IF NOT EXISTS verification_status TEXT DEFAULT 'unverified',
   ADD COLUMN IF NOT EXISTS acknowledged_policy_at TIMESTAMPTZ,
