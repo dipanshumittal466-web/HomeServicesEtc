@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Modal from "../components/Modal";
 
 // 11 main category icons
 import plumbingIcon from "../assets/icons/plumbing.png";
