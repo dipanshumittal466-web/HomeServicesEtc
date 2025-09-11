@@ -1,6 +1,6 @@
 const cron = require('node-cron')
 const mongoose = require('mongoose')
-const User = require('../src/models/User')
+const User = require('./src/models/User')
 const { sendMail } = require('../src/utils/mailer')
 
 const MONGO = process.env.MONGO_URI || 'mongodb://localhost:27017/homeservicesetc'
