@@ -1,0 +1,1 @@
+DB Models folder - define Sequelize/Knex/SQL models here.
