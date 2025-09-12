@@ -1,3 +1,0 @@
-import React, {useEffect, useState} from 'react'; import axios from 'axios';
-export default function Users(){ const [users,setUsers]=useState([]); useEffect(()=>{axios.get(import.meta.env.VITE_API_URL + '/api/users').then(r=>setUsers(r.data)).catch(()=>{})},[])
-return (<div><h2>Users</h2><table className="w-full"><thead><tr><th>Name</th><th>Email</th><th>Role</th></tr></thead><tbody>{users.map(u=>(<tr key={u._id}><td>{u.name}</td><td>{u.email}</td><td>{u.role}</td></tr>))}</tbody></table></div>)}

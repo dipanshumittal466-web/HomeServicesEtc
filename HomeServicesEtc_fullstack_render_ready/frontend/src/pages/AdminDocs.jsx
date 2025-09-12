@@ -1,3 +1,0 @@
-import React,{useEffect,useState} from 'react'; import axios from 'axios';
-export default function Docs(){ const [users,setUsers]=useState([]); useEffect(()=>{axios.get(import.meta.env.VITE_API_URL + '/api/users').then(r=>setUsers(r.data)).catch(()=>{})},[])
-return (<div><h2>Documents</h2>{users.map(u=>(<div key={u._id} className="p-2 border mb-2"><strong>{u.name}</strong><div>Docs: {(u.documents||[]).length}</div></div>))}</div>)}
