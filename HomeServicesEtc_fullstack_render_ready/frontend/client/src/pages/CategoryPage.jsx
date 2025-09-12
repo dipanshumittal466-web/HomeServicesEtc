@@ -12,7 +12,7 @@ const importSubIcon = (iconName) => {
     console.warn(`⚠️ Icon not found: ${iconName}, using fallback.`);
     return require(`../assets/icons/subcategories/default.png`); // make sure default.png exists
   }
-};//
+};
 
 const CategoryPage = () => {
   const { category } = useParams();
