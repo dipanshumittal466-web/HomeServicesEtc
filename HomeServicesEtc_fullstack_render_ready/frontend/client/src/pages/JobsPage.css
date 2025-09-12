@@ -1,0 +1,138 @@
+/* client/src/pages/JobsPage.css */
+
+/* Page wrapper */
+.jobs-page {
+  padding: 2rem;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* Header and title */
+.jobs-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.jobs-header__title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.jobs-header__actions {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Filter bar */
+.jobs-filters {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.jobs-filters input,
+.jobs-filters select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font: inherit;
+}
+
+/* Jobs grid */
+.jobs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Individual job card */
+.job-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: transform var(--transition-speed), box-shadow var(--transition-speed);
+}
+
+.job-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Job card image or icon */
+.job-card__media {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  background-color: #f5f5f5;
+}
+
+/* Job card body */
+.job-card__body {
+  padding: 1rem;
+}
+
+.job-card__title {
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+}
+
+.job-card__company {
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.job-card__location {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  color: #999;
+}
+
+/* Call-to-action button */
+.job-card__cta {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.875rem;
+  transition: background-color var(--transition-speed);
+}
+
+.job-card__cta:hover {
+  opacity: 0.9;
+}
+
+/* Load more button */
+.jobs-loadmore {
+  display: block;
+  margin: 2rem auto 0;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: opacity var(--transition-speed);
+}
+
+.jobs-loadmore:hover {
+  opacity: 0.85;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .jobs-grid {
+    grid-template-columns: 1fr;
+  }
+  .jobs-filters {
+    flex-direction: column;
+  }
+}
