@@ -4,7 +4,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './CategoriesPage.css';
 
-const categories = [
+//const categories = [
   { name: 'Plumbing', icon: 'plumbing' },
   { name: 'Electrical', icon: 'electrical' },
   { name: 'Cleaning', icon: 'cleaning' },
