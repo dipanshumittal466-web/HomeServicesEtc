@@ -7,10 +7,10 @@ import './CategoryPage.css';
 // Dynamically require the right PNG by its filename (icon key) with fallback
 const importSubIcon = (iconName) => {
   try {
-    return require(`../assets/icons/subcategories/${iconName}.png`);
+   // return require(`../assets/icons/subcategories/${iconName}.png`);
   } catch (err) {
     console.warn(`⚠️ Icon not found: ${iconName}, using fallback.`);
-    return require(`../assets/icons/subcategories/default.png`); // make sure default.png exists
+   // return require(`../assets/icons/subcategories/default.png`); // make sure default.png exists
   }
 };
 
