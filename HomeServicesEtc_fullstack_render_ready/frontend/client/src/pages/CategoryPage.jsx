@@ -6,7 +6,7 @@ import './CategoryPage.css';
 
 // dynamically require the right SVG by its filename (icon key)
 const importSubIcon = iconName =>
-  require(`../assets/icons/subcategories/${iconName}.png`).default;
+  //require(`../assets/icons/subcategories/${iconName}.png`).default;
 
 const CategoryPage = () => {
   const { category } = useParams();
