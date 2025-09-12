@@ -287,4 +287,90 @@ export const subcategoriesMap = {
   { name: 'Windscreens & tinting',         icon: 'automotive-mobile-services-windscreens' },
   { name: 'Tyres, batteries & fitment',    icon: 'automotive-mobile-services-tyres' },
   { name: 'Car audio & accessories',       icon: 'automotive-mobile-services-audio' }
-]
+],
+  'Metalwork & Fabrication': [
+    { name: 'Welding & steel work', icon: 'metalwork-fabrication-welding' },
+    { name: 'Custom fabrication', icon: 'metalwork-fabrication-custom' }
+  ],
+
+  'Glass, Glazing & Screens': [
+    { name: 'Glass repairs & replacement', icon: 'glass-glazing-screens-repairs' },
+    { name: 'Custom shower screens', icon: 'glass-glazing-screens-shower' }
+  ],
+
+  'Signage & Printing': [
+    { name: 'Shop signage', icon: 'signage-printing-shop' },
+    { name: 'Business cards & flyers', icon: 'signage-printing-business-cards' }
+  ],
+
+  'Garden Structures & Exteriors': [
+    { name: 'Pergolas & gazebos', icon: 'garden-structures-exteriors-pergolas' },
+    { name: 'Retaining walls', icon: 'garden-structures-exteriors-retaining-walls' }
+  ],
+
+  'Wastewater, Septic & Rural': [
+    { name: 'Septic tanks', icon: 'wastewater-septic-rural-septic-tanks' },
+    { name: 'Irrigation systems', icon: 'wastewater-septic-rural-irrigation' }
+  ],
+
+  'Marine & Jetty': [
+    { name: 'Boat ramps', icon: 'marine-jetty-boat-ramps' },
+    { name: 'Jetty maintenance', icon: 'marine-jetty-maintenance' }
+  ],
+
+  'Accessibility, NDIS & Aged Care': [
+    { name: 'Mobility aids install', icon: 'accessibility-ndis-aged-care-mobility' },
+    { name: 'Bathroom modifications', icon: 'accessibility-ndis-aged-care-bathroom' }
+  ],
+
+  'Health, Wellness & Personal Care': [
+    { name: 'Massage therapy', icon: 'health-wellness-personal-care-massage' },
+    { name: 'Personal training', icon: 'health-wellness-personal-care-training' }
+  ],
+
+  'Childcare, Family & Education': [
+    { name: 'Tutoring services', icon: 'childcare-family-education-tutoring' },
+    { name: 'Daycare centers', icon: 'childcare-family-education-daycare' }
+  ],
+
+  'Pets & Animals': [
+    { name: 'Pet grooming', icon: 'pets-animals-grooming' },
+    { name: 'Veterinary services', icon: 'pets-animals-vet' }
+  ],
+
+  'Events & Hospitality': [
+    { name: 'Event planning', icon: 'events-hospitality-planning' },
+    { name: 'Catering services', icon: 'events-hospitality-catering' }
+  ],
+
+  'Photography, Video & Creative': [
+    { name: 'Photography', icon: 'photography-video-creative-photo' },
+    { name: 'Videography', icon: 'photography-video-creative-video' }
+  ],
+
+  'Business, Admin & Virtual Support': [
+    { name: 'Bookkeeping', icon: 'business-admin-virtual-support-bookkeeping' },
+    { name: 'Virtual assistance', icon: 'business-admin-virtual-support-va' }
+  ],
+
+  'Legal, Finance & Property Services': [
+    { name: 'Legal advice', icon: 'legal-finance-property-services-legal' },
+    { name: 'Accounting', icon: 'legal-finance-property-services-accounting' }
+  ],
+
+  'IT, Web & Cyber': [
+    { name: 'Web development', icon: 'it-web-cyber-web-dev' },
+    { name: 'Cybersecurity', icon: 'it-web-cyber-security' }
+  ],
+
+  'Sustainability & Environment': [
+    { name: 'Recycling programs', icon: 'sustainability-environment-recycling' },
+    { name: 'Energy efficiency audits', icon: 'sustainability-environment-audits' }
+  ],
+
+  'Specialty Trades & Niche Services': [
+    { name: 'Antique restoration', icon: 'specialty-niche-services-antique' },
+    { name: 'Custom art', icon: 'specialty-niche-services-art' }
+  ]
+};
+
