@@ -13,7 +13,7 @@ import './CategoriesPage.css';
   { name: 'Pest Control', icon: 'pest-control' },
   { name: 'Handyman', icon: 'handyman' },
   { name: 'Renovation', icon: 'renovation' },
-];
+];//
 
 const importCategoryIcon = (iconName) =>
   require(`../assets/icons/categories/${iconName}.svg`).default;
