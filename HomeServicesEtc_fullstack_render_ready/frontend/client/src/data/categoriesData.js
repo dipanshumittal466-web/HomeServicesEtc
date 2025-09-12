@@ -279,4 +279,12 @@ export const subcategoriesMap = {
     { name: 'Click-and-collect runs',    icon: 'transport-delivery-courier-click-collect' },
     { name: 'Trailer/ute hire & driver', icon: 'transport-delivery-courier-trailer-hire' }
   ],
-  'Automotive & Mobile
+  'Automotive & Mobile Services': [
+  { name: 'Car servicing & repairs',       icon: 'automotive-mobile-services-car-repairs' },
+  { name: 'Mobile mechanics',              icon: 'automotive-mobile-services-mobile-mechanics' },
+  { name: 'Roadside assistance',           icon: 'automotive-mobile-services-roadside' },
+  { name: 'Car wash & detailing',          icon: 'automotive-mobile-services-car-wash' },
+  { name: 'Windscreens & tinting',         icon: 'automotive-mobile-services-windscreens' },
+  { name: 'Tyres, batteries & fitment',    icon: 'automotive-mobile-services-tyres' },
+  { name: 'Car audio & accessories',       icon: 'automotive-mobile-services-audio' }
+],
