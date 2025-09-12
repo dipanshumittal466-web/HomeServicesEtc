@@ -287,4 +287,4 @@ export const subcategoriesMap = {
   { name: 'Windscreens & tinting',         icon: 'automotive-mobile-services-windscreens' },
   { name: 'Tyres, batteries & fitment',    icon: 'automotive-mobile-services-tyres' },
   { name: 'Car audio & accessories',       icon: 'automotive-mobile-services-audio' }
-],
+]
