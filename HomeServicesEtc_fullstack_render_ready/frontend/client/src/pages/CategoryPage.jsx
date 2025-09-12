@@ -4,9 +4,15 @@ import api from '../services/api';
 import { subcategoriesMap } from '../data/categoriesData';
 import './CategoryPage.css';
 
-// dynamically require the right SVG by its filename (icon key)
-const importSubIcon = iconName =>
- // require(`../assets/icons/subcategories/${iconName}.png`).default;
+// Dynamically require the right PNG by its filename (icon key) with fallback
+const importSubIcon = (iconName) => {
+  try {
+    return require(`../assets/icons/subcategories/${iconName}.png`);
+  } catch (err) {
+    console.warn(`⚠️ Icon not found: ${iconName}, using fallback.`);
+    return require(`../assets/icons/subcategories/default.png`); // make sure default.png exists
+  }
+};//
 
 const CategoryPage = () => {
   const { category } = useParams();
@@ -22,7 +28,7 @@ const CategoryPage = () => {
     }
     api
       .get('/jobs', { params: { category, subcategory: selectedSub.name } })
-      .then(res => setJobs(res.data))
+      .then((res) => setJobs(res.data))
       .catch(() => setJobs([]));
   }, [category, selectedSub]);
 
@@ -31,7 +37,7 @@ const CategoryPage = () => {
       <h2>{category}</h2>
 
       <div className="subcat-grid">
-        {subs.map(sub => (
+        {subs.map((sub) => (
           <button
             key={sub.name}
             className={
@@ -52,7 +58,7 @@ const CategoryPage = () => {
       {selectedSub?.name && (
         <div className="jobs-listing">
           {jobs.length ? (
-            jobs.map(job => (
+            jobs.map((job) => (
               <div key={job._id} className="job-card">
                 <h4>{job.title}</h4>
                 <p>{job.description}</p>
