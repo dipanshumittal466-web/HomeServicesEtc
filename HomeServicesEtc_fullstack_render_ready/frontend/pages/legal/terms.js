@@ -1,5 +1,10 @@
-    export default function Terms&Conditions(){ 
-      return (<div style={padding:20}><h1>Terms & Conditions</h1><pre style={whiteSpace:'pre-wrap'}>Business Plan – HomeServicesEtc.com
+// frontend/pages/legal/terms.js
+export default function TermsConditions() {
+  return (
+    <div style={{ padding: 20 }}>
+      <h1>Terms & Conditions</h1>
+      <pre style={{ whiteSpace: 'pre-wrap' }}>
+{`Business Plan – HomeServicesEtc.com
 1. Executive Summary
 
 HomeServicesEtc.com is a digital marketplace designed to connect homeowners, property managers, and business owners with qualified tradesmen and service providers across Australia. The platform allows users to post jobs for free and receive competitive quotes from pre-screened professionals. Service providers pay monthly or annual fees to access and apply for jobs.
@@ -48,5 +53,9 @@ E. Design & Admin: Interior Design, Drafting, Bookkeeping, Consulting
 F. Seasonal & Specialty: Solar Panels, Tree Lopping, Holiday Lighting
 G. Rural & Agricultural: Farm Fencing, Rainwater Systems, Shed Building
 
-6. Enhanced Verification </pre></div>); 
-    }
+6. Enhanced Verification
+`}
+      </pre>
+    </div>
+  );
+}
