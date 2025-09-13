@@ -1,3 +1,4 @@
+import handymanImg from "../assets/handyman-general-repairs.png"; 
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { categories } from '../data/categoriesData';
