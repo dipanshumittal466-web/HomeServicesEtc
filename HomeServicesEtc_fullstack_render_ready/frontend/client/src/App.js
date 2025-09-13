@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import HomePage from './pages/HomePage';
 import CategoriesPage from './pages/CategoriesPage';
@@ -13,7 +13,7 @@ import LoginPage from './pages/LoginPage';
 
 function App() {
   return (
-    <Router>
+   
       <Layout>
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -27,7 +27,7 @@ function App() {
           <Route path="/login" element={<LoginPage />} />
         </Routes>
       </Layout>
-    </Router>
+    
   );
 }
 
