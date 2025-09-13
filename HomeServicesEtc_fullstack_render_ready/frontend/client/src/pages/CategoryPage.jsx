@@ -4,16 +4,6 @@ import api from '../services/api';
 import { subcategoriesMap } from '../data/categoriesData';
 import './CategoryPage.css';
 
-// Dynamically require the right PNG by its filename (icon key) with fallback
-const importSubIcon = (iconName) => {
-  try {
-   // return require(`../assets/icons/subcategories/${iconName}.png`);
-  } catch (err) {
-    console.warn(`⚠️ Icon not found: ${iconName}, using fallback.`);
-   // return require(`../assets/icons/subcategories/default.png`); // make sure default.png exists
-  }
-};
-
 const CategoryPage = () => {
   const { category } = useParams();
   const [selectedSub, setSelectedSub] = useState(null);
@@ -45,11 +35,6 @@ const CategoryPage = () => {
             }
             onClick={() => setSelectedSub(sub)}
           >
-            <img
-              src={importSubIcon(sub.icon)}
-              alt={sub.name}
-              className="subcat-icon"
-            />
             <span>{sub.name}</span>
           </button>
         ))}
