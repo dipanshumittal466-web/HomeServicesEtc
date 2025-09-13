@@ -1,0 +1,2 @@
+import useSWR from 'swr';
+export default function Messages(){ const fetcher=(u)=>fetch(u).then(r=>r.json()); const {data} = useSWR('/api/messages/inbox', fetcher); return (<div style={{padding:20}}><h2>Inbox</h2>{data?data.map(m=>(<div key={m._id} style={{border:'1px solid #ddd', padding:12, margin:8}}><strong>From:</strong> {m.from} <br/><strong>Subject:</strong> {m.subject}<p>{m.body}</p></div>)):'Loading...'}</div>); }

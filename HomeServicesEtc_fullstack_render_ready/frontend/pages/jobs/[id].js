@@ -1,0 +1,1 @@
+export default function Job(){ return (<div style={{padding:20}}><h2>Job Detail</h2></div>); }
