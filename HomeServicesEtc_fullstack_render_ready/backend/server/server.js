@@ -15,10 +15,17 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use('/uploads', express.static('uploads'));
+
+// ✅ Root route to avoid "Cannot GET /"
+app.get('/', (req, res) => {
+  res.send('✅ Backend API is running. Available routes: /api/users, /api/jobs, /api/admin, /api/crm');
+});
+
 app.use('/api/users', userRoutes);
 app.use('/api/jobs', jobRoutes);
 app.use('/api/admin', adminRoutes);
 app.use('/api/crm', crmRoutes);
+
 app.use(errorHandler);
 
 const PORT = process.env.PORT || 5000;
