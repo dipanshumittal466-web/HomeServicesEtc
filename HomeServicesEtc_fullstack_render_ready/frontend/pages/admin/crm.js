@@ -1,2 +1,0 @@
-import useSWR from 'swr';
-export default function CRM(){ const fetcher=(u)=>fetch(u).then(r=>r.json()); const {data:disputes} = useSWR('/api/disputes', fetcher); return (<div style={{padding:20}}><h2>CRM — Disputes</h2>{disputes?disputes.map(d=>(<div key={d._id} style={{border:'1px solid #ddd', padding:12, margin:8}}><strong>Job:</strong> {d.jobId} <br/><strong>Reason:</strong> {d.reason} <br/><strong>Status:</strong> {d.status}</div>)):'Loading...'}</div>); }
