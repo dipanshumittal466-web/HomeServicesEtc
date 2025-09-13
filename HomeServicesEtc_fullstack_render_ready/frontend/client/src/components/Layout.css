@@ -1,0 +1,65 @@
+/* frontend/client/src/components/Layout.css */
+
+/* Container for the entire layout */
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header section */
+.layout-header {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+}
+
+/* Optional nav inside header */
+.layout-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Main area: holds sidebar + content */
+.layout-main {
+  flex: 1;
+  display: flex;
+  background-color: var(--background-color);
+  padding: 2rem;
+}
+
+/* Sidebar in main */
+.layout-sidebar {
+  width: 220px;
+  background-color: #f5f5f5;
+  padding: 1rem;
+  border-right: 1px solid #ddd;
+}
+
+/* Primary content area */
+.layout-content {
+  flex: 1;
+  padding: 1rem 2rem;
+}
+
+/* Footer section */
+.layout-footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 2rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .layout-main {
+    flex-direction: column;
+  }
+  .layout-sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+  }
+}
