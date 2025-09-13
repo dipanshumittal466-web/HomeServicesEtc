@@ -1,4 +1,4 @@
-    export default function Insurance&IDPolicy(){ 
+export default function InsuranceIDPolicy() { 
       return (<div style={padding:20}><h1>Insurance & ID Policy</h1><pre style={whiteSpace:'pre-wrap'}>
 Test & tag (workplace/commercial)
 Heating, Cooling & Ventilation (HVAC)
