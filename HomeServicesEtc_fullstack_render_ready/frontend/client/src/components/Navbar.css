@@ -1,0 +1,39 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--primary-color);
+  padding: 0.5rem 1rem;
+  color: #fff;
+}
+
+/* Logo area */
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Navigation links */
+.navbar-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-links a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem;
+  transition: opacity var(--transition-speed);
+}
+
+.navbar-links a:hover {
+  opacity: 0.8;
+}
+
+/* Mobile: hide links, you can show a burger menu instead */
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none;
+  }
+}

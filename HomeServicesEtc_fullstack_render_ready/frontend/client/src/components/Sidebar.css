@@ -1,0 +1,36 @@
+/* Sidebar container */
+.sidebar {
+  width: 220px;
+  background-color: #f5f5f5;
+  padding: 1rem;
+  border-right: 1px solid #ddd;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+
+/* Each sidebar item */
+.sidebar-item {
+  margin-bottom: 1rem;
+}
+
+.sidebar-item a {
+  display: block;
+  color: var(--text-color);
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 4px;
+  transition: background-color var(--transition-speed);
+}
+
+.sidebar-item a:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+/* Mobile: hide sidebar */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}
