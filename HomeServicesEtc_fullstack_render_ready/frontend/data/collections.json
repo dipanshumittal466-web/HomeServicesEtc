@@ -1,0 +1,947 @@
+[
+  {
+    "id": "cat01",
+    "title": "Handyman & General Repairs",
+    "slug": "handyman-and-general-repairs",
+    "description": "Handyman & General Repairs services - professional and vetted providers.",
+    "image": "/images/collections/cat01.jpg",
+    "services": [
+      {
+        "id": "handyman-and-general-repairs-service-1",
+        "title": "Handyman & General Repairs - Basic Service",
+        "starting_price": 509,
+        "duration_mins": 60
+      },
+      {
+        "id": "handyman-and-general-repairs-service-2",
+        "title": "Handyman & General Repairs - Standard Service",
+        "starting_price": 909,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat02",
+    "title": "Carpentry & Joinery",
+    "slug": "carpentry-and-joinery",
+    "description": "Carpentry & Joinery services - professional and vetted providers.",
+    "image": "/images/collections/cat02.jpg",
+    "services": [
+      {
+        "id": "carpentry-and-joinery-service-1",
+        "title": "Carpentry & Joinery - Basic Service",
+        "starting_price": 519,
+        "duration_mins": 60
+      },
+      {
+        "id": "carpentry-and-joinery-service-2",
+        "title": "Carpentry & Joinery - Standard Service",
+        "starting_price": 919,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat03",
+    "title": "Plumbing, Gas & Drainage",
+    "slug": "plumbing-gas-and-drainage",
+    "description": "Plumbing, Gas & Drainage services - professional and vetted providers.",
+    "image": "/images/collections/cat03.jpg",
+    "services": [
+      {
+        "id": "plumbing-gas-and-drainage-service-1",
+        "title": "Plumbing, Gas & Drainage - Basic Service",
+        "starting_price": 529,
+        "duration_mins": 60
+      },
+      {
+        "id": "plumbing-gas-and-drainage-service-2",
+        "title": "Plumbing, Gas & Drainage - Standard Service",
+        "starting_price": 929,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat04",
+    "title": "Electrical & Data",
+    "slug": "electrical-and-data",
+    "description": "Electrical & Data services - professional and vetted providers.",
+    "image": "/images/collections/cat04.jpg",
+    "services": [
+      {
+        "id": "electrical-and-data-service-1",
+        "title": "Electrical & Data - Basic Service",
+        "starting_price": 539,
+        "duration_mins": 60
+      },
+      {
+        "id": "electrical-and-data-service-2",
+        "title": "Electrical & Data - Standard Service",
+        "starting_price": 939,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat05",
+    "title": "Heating, Cooling & Ventilation",
+    "slug": "heating-cooling-and-ventilation",
+    "description": "Heating, Cooling & Ventilation services - professional and vetted providers.",
+    "image": "/images/collections/cat05.jpg",
+    "services": [
+      {
+        "id": "heating-cooling-and-ventilation-service-1",
+        "title": "Heating, Cooling & Ventilation - Basic Service",
+        "starting_price": 549,
+        "duration_mins": 60
+      },
+      {
+        "id": "heating-cooling-and-ventilation-service-2",
+        "title": "Heating, Cooling & Ventilation - Standard Service",
+        "starting_price": 949,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat06",
+    "title": "Roofing & Guttering",
+    "slug": "roofing-and-guttering",
+    "description": "Roofing & Guttering services - professional and vetted providers.",
+    "image": "/images/collections/cat06.jpg",
+    "services": [
+      {
+        "id": "roofing-and-guttering-service-1",
+        "title": "Roofing & Guttering - Basic Service",
+        "starting_price": 559,
+        "duration_mins": 60
+      },
+      {
+        "id": "roofing-and-guttering-service-2",
+        "title": "Roofing & Guttering - Standard Service",
+        "starting_price": 959,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat07",
+    "title": "Painting & Decorating",
+    "slug": "painting-and-decorating",
+    "description": "Painting & Decorating services - professional and vetted providers.",
+    "image": "/images/collections/cat07.jpg",
+    "services": [
+      {
+        "id": "painting-and-decorating-service-1",
+        "title": "Painting & Decorating - Basic Service",
+        "starting_price": 569,
+        "duration_mins": 60
+      },
+      {
+        "id": "painting-and-decorating-service-2",
+        "title": "Painting & Decorating - Standard Service",
+        "starting_price": 969,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat08",
+    "title": "Plastering & Drywall",
+    "slug": "plastering-and-drywall",
+    "description": "Plastering & Drywall services - professional and vetted providers.",
+    "image": "/images/collections/cat08.jpg",
+    "services": [
+      {
+        "id": "plastering-and-drywall-service-1",
+        "title": "Plastering & Drywall - Basic Service",
+        "starting_price": 579,
+        "duration_mins": 60
+      },
+      {
+        "id": "plastering-and-drywall-service-2",
+        "title": "Plastering & Drywall - Standard Service",
+        "starting_price": 979,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat09",
+    "title": "Tiling, Stone & Masonry",
+    "slug": "tiling-stone-and-masonry",
+    "description": "Tiling, Stone & Masonry services - professional and vetted providers.",
+    "image": "/images/collections/cat09.jpg",
+    "services": [
+      {
+        "id": "tiling-stone-and-masonry-service-1",
+        "title": "Tiling, Stone & Masonry - Basic Service",
+        "starting_price": 589,
+        "duration_mins": 60
+      },
+      {
+        "id": "tiling-stone-and-masonry-service-2",
+        "title": "Tiling, Stone & Masonry - Standard Service",
+        "starting_price": 989,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat10",
+    "title": "Flooring",
+    "slug": "flooring",
+    "description": "Flooring services - professional and vetted providers.",
+    "image": "/images/collections/cat10.jpg",
+    "services": [
+      {
+        "id": "flooring-service-1",
+        "title": "Flooring - Basic Service",
+        "starting_price": 599,
+        "duration_mins": 60
+      },
+      {
+        "id": "flooring-service-2",
+        "title": "Flooring - Standard Service",
+        "starting_price": 999,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat11",
+    "title": "Windows, Doors & Glazing",
+    "slug": "windows-doors-and-glazing",
+    "description": "Windows, Doors & Glazing services - professional and vetted providers.",
+    "image": "/images/collections/cat11.jpg",
+    "services": [
+      {
+        "id": "windows-doors-and-glazing-service-1",
+        "title": "Windows, Doors & Glazing - Basic Service",
+        "starting_price": 609,
+        "duration_mins": 60
+      },
+      {
+        "id": "windows-doors-and-glazing-service-2",
+        "title": "Windows, Doors & Glazing - Standard Service",
+        "starting_price": 1009,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat12",
+    "title": "Fencing & Gates",
+    "slug": "fencing-and-gates",
+    "description": "Fencing & Gates services - professional and vetted providers.",
+    "image": "/images/collections/cat12.jpg",
+    "services": [
+      {
+        "id": "fencing-and-gates-service-1",
+        "title": "Fencing & Gates - Basic Service",
+        "starting_price": 619,
+        "duration_mins": 60
+      },
+      {
+        "id": "fencing-and-gates-service-2",
+        "title": "Fencing & Gates - Standard Service",
+        "starting_price": 1019,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat13",
+    "title": "Outdoor, Landscaping & Garden",
+    "slug": "outdoor-landscaping-and-garden",
+    "description": "Outdoor, Landscaping & Garden services - professional and vetted providers.",
+    "image": "/images/collections/cat13.jpg",
+    "services": [
+      {
+        "id": "outdoor-landscaping-and-garden-service-1",
+        "title": "Outdoor, Landscaping & Garden - Basic Service",
+        "starting_price": 629,
+        "duration_mins": 60
+      },
+      {
+        "id": "outdoor-landscaping-and-garden-service-2",
+        "title": "Outdoor, Landscaping & Garden - Standard Service",
+        "starting_price": 1029,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat14",
+    "title": "Pools, Spas & Saunas",
+    "slug": "pools-spas-and-saunas",
+    "description": "Pools, Spas & Saunas services - professional and vetted providers.",
+    "image": "/images/collections/cat14.jpg",
+    "services": [
+      {
+        "id": "pools-spas-and-saunas-service-1",
+        "title": "Pools, Spas & Saunas - Basic Service",
+        "starting_price": 639,
+        "duration_mins": 60
+      },
+      {
+        "id": "pools-spas-and-saunas-service-2",
+        "title": "Pools, Spas & Saunas - Standard Service",
+        "starting_price": 1039,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat15",
+    "title": "Cleaning & Housekeeping",
+    "slug": "cleaning-and-housekeeping",
+    "description": "Cleaning & Housekeeping services - professional and vetted providers.",
+    "image": "/images/collections/cat15.jpg",
+    "services": [
+      {
+        "id": "cleaning-and-housekeeping-service-1",
+        "title": "Cleaning & Housekeeping - Basic Service",
+        "starting_price": 649,
+        "duration_mins": 60
+      },
+      {
+        "id": "cleaning-and-housekeeping-service-2",
+        "title": "Cleaning & Housekeeping - Standard Service",
+        "starting_price": 1049,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat16",
+    "title": "Rubbish, Recycling & Skip Hire",
+    "slug": "rubbish-recycling-and-skip-hire",
+    "description": "Rubbish, Recycling & Skip Hire services - professional and vetted providers.",
+    "image": "/images/collections/cat16.jpg",
+    "services": [
+      {
+        "id": "rubbish-recycling-and-skip-hire-service-1",
+        "title": "Rubbish, Recycling & Skip Hire - Basic Service",
+        "starting_price": 659,
+        "duration_mins": 60
+      },
+      {
+        "id": "rubbish-recycling-and-skip-hire-service-2",
+        "title": "Rubbish, Recycling & Skip Hire - Standard Service",
+        "starting_price": 1059,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat17",
+    "title": "Pest & Wildlife",
+    "slug": "pest-and-wildlife",
+    "description": "Pest & Wildlife services - professional and vetted providers.",
+    "image": "/images/collections/cat17.jpg",
+    "services": [
+      {
+        "id": "pest-and-wildlife-service-1",
+        "title": "Pest & Wildlife - Basic Service",
+        "starting_price": 669,
+        "duration_mins": 60
+      },
+      {
+        "id": "pest-and-wildlife-service-2",
+        "title": "Pest & Wildlife - Standard Service",
+        "starting_price": 1069,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat18",
+    "title": "Security, Alarms & CCTV",
+    "slug": "security-alarms-and-cctv",
+    "description": "Security, Alarms & CCTV services - professional and vetted providers.",
+    "image": "/images/collections/cat18.jpg",
+    "services": [
+      {
+        "id": "security-alarms-and-cctv-service-1",
+        "title": "Security, Alarms & CCTV - Basic Service",
+        "starting_price": 679,
+        "duration_mins": 60
+      },
+      {
+        "id": "security-alarms-and-cctv-service-2",
+        "title": "Security, Alarms & CCTV - Standard Service",
+        "starting_price": 1079,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat19",
+    "title": "Smart Home & IT",
+    "slug": "smart-home-and-it",
+    "description": "Smart Home & IT services - professional and vetted providers.",
+    "image": "/images/collections/cat19.jpg",
+    "services": [
+      {
+        "id": "smart-home-and-it-service-1",
+        "title": "Smart Home & IT - Basic Service",
+        "starting_price": 689,
+        "duration_mins": 60
+      },
+      {
+        "id": "smart-home-and-it-service-2",
+        "title": "Smart Home & IT - Standard Service",
+        "starting_price": 1089,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat20",
+    "title": "Solar, Batteries & Energy",
+    "slug": "solar-batteries-and-energy",
+    "description": "Solar, Batteries & Energy services - professional and vetted providers.",
+    "image": "/images/collections/cat20.jpg",
+    "services": [
+      {
+        "id": "solar-batteries-and-energy-service-1",
+        "title": "Solar, Batteries & Energy - Basic Service",
+        "starting_price": 699,
+        "duration_mins": 60
+      },
+      {
+        "id": "solar-batteries-and-energy-service-2",
+        "title": "Solar, Batteries & Energy - Standard Service",
+        "starting_price": 1099,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat21",
+    "title": "Appliances",
+    "slug": "appliances",
+    "description": "Appliances services - professional and vetted providers.",
+    "image": "/images/collections/cat21.jpg",
+    "services": [
+      {
+        "id": "appliances-service-1",
+        "title": "Appliances - Basic Service",
+        "starting_price": 709,
+        "duration_mins": 60
+      },
+      {
+        "id": "appliances-service-2",
+        "title": "Appliances - Standard Service",
+        "starting_price": 1109,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat22",
+    "title": "Building & Renovation",
+    "slug": "building-and-renovation",
+    "description": "Building & Renovation services - professional and vetted providers.",
+    "image": "/images/collections/cat22.jpg",
+    "services": [
+      {
+        "id": "building-and-renovation-service-1",
+        "title": "Building & Renovation - Basic Service",
+        "starting_price": 719,
+        "duration_mins": 60
+      },
+      {
+        "id": "building-and-renovation-service-2",
+        "title": "Building & Renovation - Standard Service",
+        "starting_price": 1119,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat23",
+    "title": "Compliance, Inspection & Reports",
+    "slug": "compliance-inspection-and-reports",
+    "description": "Compliance, Inspection & Reports services - professional and vetted providers.",
+    "image": "/images/collections/cat23.jpg",
+    "services": [
+      {
+        "id": "compliance-inspection-and-reports-service-1",
+        "title": "Compliance, Inspection & Reports - Basic Service",
+        "starting_price": 729,
+        "duration_mins": 60
+      },
+      {
+        "id": "compliance-inspection-and-reports-service-2",
+        "title": "Compliance, Inspection & Reports - Standard Service",
+        "starting_price": 1129,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat24",
+    "title": "Emergency & Disaster Recovery",
+    "slug": "emergency-and-disaster-recovery",
+    "description": "Emergency & Disaster Recovery services - professional and vetted providers.",
+    "image": "/images/collections/cat24.jpg",
+    "services": [
+      {
+        "id": "emergency-and-disaster-recovery-service-1",
+        "title": "Emergency & Disaster Recovery - Basic Service",
+        "starting_price": 739,
+        "duration_mins": 60
+      },
+      {
+        "id": "emergency-and-disaster-recovery-service-2",
+        "title": "Emergency & Disaster Recovery - Standard Service",
+        "starting_price": 1139,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat25",
+    "title": "Strata & Property Management Services",
+    "slug": "strata-and-property-management-services",
+    "description": "Strata & Property Management Services services - professional and vetted providers.",
+    "image": "/images/collections/cat25.jpg",
+    "services": [
+      {
+        "id": "strata-and-property-management-services-service-1",
+        "title": "Strata & Property Management Services - Basic Service",
+        "starting_price": 749,
+        "duration_mins": 60
+      },
+      {
+        "id": "strata-and-property-management-services-service-2",
+        "title": "Strata & Property Management Services - Standard Service",
+        "starting_price": 1149,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat26",
+    "title": "Moving, Storage & Relocations",
+    "slug": "moving-storage-and-relocations",
+    "description": "Moving, Storage & Relocations services - professional and vetted providers.",
+    "image": "/images/collections/cat26.jpg",
+    "services": [
+      {
+        "id": "moving-storage-and-relocations-service-1",
+        "title": "Moving, Storage & Relocations - Basic Service",
+        "starting_price": 759,
+        "duration_mins": 60
+      },
+      {
+        "id": "moving-storage-and-relocations-service-2",
+        "title": "Moving, Storage & Relocations - Standard Service",
+        "starting_price": 1159,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat27",
+    "title": "Transport, Delivery & Courier",
+    "slug": "transport-delivery-and-courier",
+    "description": "Transport, Delivery & Courier services - professional and vetted providers.",
+    "image": "/images/collections/cat27.jpg",
+    "services": [
+      {
+        "id": "transport-delivery-and-courier-service-1",
+        "title": "Transport, Delivery & Courier - Basic Service",
+        "starting_price": 769,
+        "duration_mins": 60
+      },
+      {
+        "id": "transport-delivery-and-courier-service-2",
+        "title": "Transport, Delivery & Courier - Standard Service",
+        "starting_price": 1169,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat28",
+    "title": "Automotive & Mobile Services",
+    "slug": "automotive-and-mobile-services",
+    "description": "Automotive & Mobile Services services - professional and vetted providers.",
+    "image": "/images/collections/cat28.jpg",
+    "services": [
+      {
+        "id": "automotive-and-mobile-services-service-1",
+        "title": "Automotive & Mobile Services - Basic Service",
+        "starting_price": 779,
+        "duration_mins": 60
+      },
+      {
+        "id": "automotive-and-mobile-services-service-2",
+        "title": "Automotive & Mobile Services - Standard Service",
+        "starting_price": 1179,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat29",
+    "title": "Metalwork & Fabrication",
+    "slug": "metalwork-and-fabrication",
+    "description": "Metalwork & Fabrication services - professional and vetted providers.",
+    "image": "/images/collections/cat29.jpg",
+    "services": [
+      {
+        "id": "metalwork-and-fabrication-service-1",
+        "title": "Metalwork & Fabrication - Basic Service",
+        "starting_price": 789,
+        "duration_mins": 60
+      },
+      {
+        "id": "metalwork-and-fabrication-service-2",
+        "title": "Metalwork & Fabrication - Standard Service",
+        "starting_price": 1189,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat30",
+    "title": "Glass, Glazing & Screens",
+    "slug": "glass-glazing-and-screens",
+    "description": "Glass, Glazing & Screens services - professional and vetted providers.",
+    "image": "/images/collections/cat30.jpg",
+    "services": [
+      {
+        "id": "glass-glazing-and-screens-service-1",
+        "title": "Glass, Glazing & Screens - Basic Service",
+        "starting_price": 799,
+        "duration_mins": 60
+      },
+      {
+        "id": "glass-glazing-and-screens-service-2",
+        "title": "Glass, Glazing & Screens - Standard Service",
+        "starting_price": 1199,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat31",
+    "title": "Signage & Printing",
+    "slug": "signage-and-printing",
+    "description": "Signage & Printing services - professional and vetted providers.",
+    "image": "/images/collections/cat31.jpg",
+    "services": [
+      {
+        "id": "signage-and-printing-service-1",
+        "title": "Signage & Printing - Basic Service",
+        "starting_price": 809,
+        "duration_mins": 60
+      },
+      {
+        "id": "signage-and-printing-service-2",
+        "title": "Signage & Printing - Standard Service",
+        "starting_price": 1209,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat32",
+    "title": "Garden Structures & Exteriors",
+    "slug": "garden-structures-and-exteriors",
+    "description": "Garden Structures & Exteriors services - professional and vetted providers.",
+    "image": "/images/collections/cat32.jpg",
+    "services": [
+      {
+        "id": "garden-structures-and-exteriors-service-1",
+        "title": "Garden Structures & Exteriors - Basic Service",
+        "starting_price": 819,
+        "duration_mins": 60
+      },
+      {
+        "id": "garden-structures-and-exteriors-service-2",
+        "title": "Garden Structures & Exteriors - Standard Service",
+        "starting_price": 1219,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat33",
+    "title": "Wastewater, Septic & Rural",
+    "slug": "wastewater-septic-and-rural",
+    "description": "Wastewater, Septic & Rural services - professional and vetted providers.",
+    "image": "/images/collections/cat33.jpg",
+    "services": [
+      {
+        "id": "wastewater-septic-and-rural-service-1",
+        "title": "Wastewater, Septic & Rural - Basic Service",
+        "starting_price": 829,
+        "duration_mins": 60
+      },
+      {
+        "id": "wastewater-septic-and-rural-service-2",
+        "title": "Wastewater, Septic & Rural - Standard Service",
+        "starting_price": 1229,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat34",
+    "title": "Marine & Jetty",
+    "slug": "marine-and-jetty",
+    "description": "Marine & Jetty services - professional and vetted providers.",
+    "image": "/images/collections/cat34.jpg",
+    "services": [
+      {
+        "id": "marine-and-jetty-service-1",
+        "title": "Marine & Jetty - Basic Service",
+        "starting_price": 839,
+        "duration_mins": 60
+      },
+      {
+        "id": "marine-and-jetty-service-2",
+        "title": "Marine & Jetty - Standard Service",
+        "starting_price": 1239,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat35",
+    "title": "Accessibility, NDIS & Aged Care",
+    "slug": "accessibility-ndis-and-aged-care",
+    "description": "Accessibility, NDIS & Aged Care services - professional and vetted providers.",
+    "image": "/images/collections/cat35.jpg",
+    "services": [
+      {
+        "id": "accessibility-ndis-and-aged-care-service-1",
+        "title": "Accessibility, NDIS & Aged Care - Basic Service",
+        "starting_price": 849,
+        "duration_mins": 60
+      },
+      {
+        "id": "accessibility-ndis-and-aged-care-service-2",
+        "title": "Accessibility, NDIS & Aged Care - Standard Service",
+        "starting_price": 1249,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat36",
+    "title": "Health, Wellness & Personal Care",
+    "slug": "health-wellness-and-personal-care",
+    "description": "Health, Wellness & Personal Care services - professional and vetted providers.",
+    "image": "/images/collections/cat36.jpg",
+    "services": [
+      {
+        "id": "health-wellness-and-personal-care-service-1",
+        "title": "Health, Wellness & Personal Care - Basic Service",
+        "starting_price": 859,
+        "duration_mins": 60
+      },
+      {
+        "id": "health-wellness-and-personal-care-service-2",
+        "title": "Health, Wellness & Personal Care - Standard Service",
+        "starting_price": 1259,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat37",
+    "title": "Childcare, Family & Education",
+    "slug": "childcare-family-and-education",
+    "description": "Childcare, Family & Education services - professional and vetted providers.",
+    "image": "/images/collections/cat37.jpg",
+    "services": [
+      {
+        "id": "childcare-family-and-education-service-1",
+        "title": "Childcare, Family & Education - Basic Service",
+        "starting_price": 869,
+        "duration_mins": 60
+      },
+      {
+        "id": "childcare-family-and-education-service-2",
+        "title": "Childcare, Family & Education - Standard Service",
+        "starting_price": 1269,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat38",
+    "title": "Pets & Animals",
+    "slug": "pets-and-animals",
+    "description": "Pets & Animals services - professional and vetted providers.",
+    "image": "/images/collections/cat38.jpg",
+    "services": [
+      {
+        "id": "pets-and-animals-service-1",
+        "title": "Pets & Animals - Basic Service",
+        "starting_price": 879,
+        "duration_mins": 60
+      },
+      {
+        "id": "pets-and-animals-service-2",
+        "title": "Pets & Animals - Standard Service",
+        "starting_price": 1279,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat39",
+    "title": "Events & Hospitality",
+    "slug": "events-and-hospitality",
+    "description": "Events & Hospitality services - professional and vetted providers.",
+    "image": "/images/collections/cat39.jpg",
+    "services": [
+      {
+        "id": "events-and-hospitality-service-1",
+        "title": "Events & Hospitality - Basic Service",
+        "starting_price": 889,
+        "duration_mins": 60
+      },
+      {
+        "id": "events-and-hospitality-service-2",
+        "title": "Events & Hospitality - Standard Service",
+        "starting_price": 1289,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat40",
+    "title": "Photography, Video & Creative",
+    "slug": "photography-video-and-creative",
+    "description": "Photography, Video & Creative services - professional and vetted providers.",
+    "image": "/images/collections/cat40.jpg",
+    "services": [
+      {
+        "id": "photography-video-and-creative-service-1",
+        "title": "Photography, Video & Creative - Basic Service",
+        "starting_price": 899,
+        "duration_mins": 60
+      },
+      {
+        "id": "photography-video-and-creative-service-2",
+        "title": "Photography, Video & Creative - Standard Service",
+        "starting_price": 1299,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat41",
+    "title": "Business, Admin & Virtual Support",
+    "slug": "business-admin-and-virtual-support",
+    "description": "Business, Admin & Virtual Support services - professional and vetted providers.",
+    "image": "/images/collections/cat41.jpg",
+    "services": [
+      {
+        "id": "business-admin-and-virtual-support-service-1",
+        "title": "Business, Admin & Virtual Support - Basic Service",
+        "starting_price": 909,
+        "duration_mins": 60
+      },
+      {
+        "id": "business-admin-and-virtual-support-service-2",
+        "title": "Business, Admin & Virtual Support - Standard Service",
+        "starting_price": 1309,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat42",
+    "title": "Legal, Finance & Property Services",
+    "slug": "legal-finance-and-property-services",
+    "description": "Legal, Finance & Property Services services - professional and vetted providers.",
+    "image": "/images/collections/cat42.jpg",
+    "services": [
+      {
+        "id": "legal-finance-and-property-services-service-1",
+        "title": "Legal, Finance & Property Services - Basic Service",
+        "starting_price": 919,
+        "duration_mins": 60
+      },
+      {
+        "id": "legal-finance-and-property-services-service-2",
+        "title": "Legal, Finance & Property Services - Standard Service",
+        "starting_price": 1319,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat43",
+    "title": "IT, Web & Cyber",
+    "slug": "it-web-and-cyber",
+    "description": "IT, Web & Cyber services - professional and vetted providers.",
+    "image": "/images/collections/cat43.jpg",
+    "services": [
+      {
+        "id": "it-web-and-cyber-service-1",
+        "title": "IT, Web & Cyber - Basic Service",
+        "starting_price": 929,
+        "duration_mins": 60
+      },
+      {
+        "id": "it-web-and-cyber-service-2",
+        "title": "IT, Web & Cyber - Standard Service",
+        "starting_price": 1329,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat44",
+    "title": "Sustainability & Environment",
+    "slug": "sustainability-and-environment",
+    "description": "Sustainability & Environment services - professional and vetted providers.",
+    "image": "/images/collections/cat44.jpg",
+    "services": [
+      {
+        "id": "sustainability-and-environment-service-1",
+        "title": "Sustainability & Environment - Basic Service",
+        "starting_price": 939,
+        "duration_mins": 60
+      },
+      {
+        "id": "sustainability-and-environment-service-2",
+        "title": "Sustainability & Environment - Standard Service",
+        "starting_price": 1339,
+        "duration_mins": 120
+      }
+    ]
+  },
+  {
+    "id": "cat45",
+    "title": "Specialty Trades & Niche Services",
+    "slug": "specialty-trades-and-niche-services",
+    "description": "Specialty Trades & Niche Services services - professional and vetted providers.",
+    "image": "/images/collections/cat45.jpg",
+    "services": [
+      {
+        "id": "specialty-trades-and-niche-services-service-1",
+        "title": "Specialty Trades & Niche Services - Basic Service",
+        "starting_price": 949,
+        "duration_mins": 60
+      },
+      {
+        "id": "specialty-trades-and-niche-services-service-2",
+        "title": "Specialty Trades & Niche Services - Standard Service",
+        "starting_price": 1349,
+        "duration_mins": 120
+      }
+    ]
+  }
+]

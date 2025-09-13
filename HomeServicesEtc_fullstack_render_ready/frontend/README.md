@@ -1,0 +1,1 @@
+Frontend: run `npm install` then `npm run dev`. Next.js pages use static data from ../data/collections.json

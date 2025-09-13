@@ -1,0 +1,1 @@
+Backend: run `npm install` then `npm run dev`. Edit .env. Seed with `node scripts/seed.js`.
