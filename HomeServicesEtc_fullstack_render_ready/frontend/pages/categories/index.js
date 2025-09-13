@@ -1,9 +1,7 @@
-import fs from 'fs'
-import path from 'path'
 import Navbar from '../../components/Navbar'
 import Link from 'next/link'
 
-export default function Categories({collections}){
+export default function Categories({ collections }){
   return (
     <>
       <Navbar />
@@ -24,8 +22,8 @@ export default function Categories({collections}){
   )
 }
 
-export async function getStaticProps(){
-  const data = fs.readFileSync(path.join(process.cwd(),'../../data/collections.json'),'utf-8')
-  const collections = JSON.parse(data)
+export async function getServerSideProps(){
+  const res = await fetch(process.env.NEXT_PUBLIC_API_URL + '/api/collections')
+  const collections = await res.json()
   return { props: { collections } }
 }
