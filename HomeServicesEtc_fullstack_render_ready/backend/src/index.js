@@ -21,6 +21,11 @@ const BookingSchema = new mongoose.Schema({
   userId: String, serviceId: String, address: Object, scheduledAt: Date, status: String, price: Number, paymentStatus: String
 })
 const Booking = mongoose.model('Booking', BookingSchema)
+// Root test route
+app.get('/', (req, res) => {
+  res.send('Backend API is running...');
+});
+
 
 // Routes
 app.get('/api/collections', async (req,res)=>{
