@@ -1,5 +1,3 @@
-import fs from 'fs'
-import path from 'path'
 import Navbar from '../../components/Navbar'
 
 export default function CategoryPage({ category }){
@@ -23,18 +21,9 @@ export default function CategoryPage({ category }){
   )
 }
 
-export async function getStaticPaths(){
-  const data = fs.readFileSync(path.join(process.cwd(),'../../data/collections.json'),'utf-8')
-  const collections = JSON.parse(data)
-  return {
-    paths: collections.map(c=>({params:{slug:c.slug}})),
-    fallback:false
-  }
-}
-
-export async function getStaticProps({params}){
-  const data = fs.readFileSync(path.join(process.cwd(),'../../data/collections.json'),'utf-8')
-  const collections = JSON.parse(data)
-  const category = collections.find(c=>c.slug===params.slug) || null
+export async function getServerSideProps({ params }){
+  const res = await fetch(process.env.NEXT_PUBLIC_API_URL + '/api/collections')
+  const collections = await res.json()
+  const category = collections.find(c => c.slug === params.slug) || null
   return { props: { category } }
 }
