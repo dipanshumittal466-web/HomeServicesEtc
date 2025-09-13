@@ -1,23 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { categories } from '../data/categoriesData';
+import iconMap from '../utils/iconLoader';
 import './ServiceCategories.css';
-
-// Preload all .png files in the folder
-const icons = require.context(
-  '../assets/icons/categories', // folder path (relative to this file)
-  false,                        // don't search subfolders
-  /\.png$/                      // only .png files
-);
-
-const importCategoryIcon = (iconName) => {
-  try {
-    return icons(`./${iconName}.png`);
-  } catch (err) {
-    console.error(`❌ Missing icon: ${iconName}.png`);
-    return null; // or provide a fallback image
-  }
-};
 
 const ServiceCategories = () => (
   <section className="categories">
@@ -30,7 +15,7 @@ const ServiceCategories = () => (
           className="category-card"
         >
           <img
-            src={importCategoryIcon(cat.icon)}
+            src={iconMap[cat.icon]}   // ✅ pulls correct .png from folder
             alt={cat.name}
             className="category-icon"
           />
