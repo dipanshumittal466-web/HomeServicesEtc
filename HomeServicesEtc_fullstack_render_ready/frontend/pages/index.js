@@ -1,7 +1,5 @@
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
-import fs from 'fs'
-import path from 'path'
 
 export default function Home({ collections }){
   return (
@@ -35,8 +33,8 @@ export default function Home({ collections }){
   )
 }
 
-export async function getStaticProps(){
-  const data = fs.readFileSync(path.join(process.cwd(),'../data/collections.json'),'utf-8')
-  const collections = JSON.parse(data)
+export async function getServerSideProps(){
+  const res = await fetch(process.env.NEXT_PUBLIC_API_URL + '/api/collections')
+  const collections = await res.json()
   return { props: { collections } }
 }
