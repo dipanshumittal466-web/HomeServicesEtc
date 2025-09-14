@@ -40,6 +40,16 @@ app.get('/', (req, res) => {
   res.send('Backend API is running...')
 })
 
+// ✅ Debug route to check category count
+app.get('/checkdb', async (req, res) => {
+  try {
+    const count = await Category.countDocuments()
+    res.json({ status: "ok", categories: count })
+  } catch (e) {
+    res.status(500).json({ status: "error", message: e.message })
+  }
+})
+
 // Routes
 app.get('/api/collections', async (req,res) => {
   const cats = await Category.find().limit(100)
